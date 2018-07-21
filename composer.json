@@ -1,0 +1,28 @@
+{
+    "name": "ginujoby/stream-sampler",
+    "type": "project",
+    "license": "MIT",
+    "description": "Stream Sampler",
+    "autoload": {
+        "psr-4": {
+            "": "src/"
+        }
+    },
+    "require": {
+        "php": ">=5.5"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "4.8.*",
+        "mikey179/vfsStream": "1.6.4"
+    },
+    "authors": [
+        {
+            "name": "Ginu Joby",
+            "email": "ginu.joby@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "config": {
+        "bin-dir": "bin"
+    }
+}
